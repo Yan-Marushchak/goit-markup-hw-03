@@ -413,8 +413,14 @@ img {
     width: calc((100% - 24px * 2) / 3);
 }
 
+.sort-buttons-list {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-bottom: 72px;
+}
 
-.services-button {
+.sort-buttons-item {
     display: block;
     color: var(--color-iris);
     text-align: center;
@@ -425,13 +431,13 @@ img {
     letter-spacing: 0.04em;
     cursor: pointer;
     background-color: var(--color-cloud);
-
     border: 1px solid #e7e9fc;
     border-radius: 4px;
+    padding: 12px 24px;
 }
 
-.services-button:hover,
-.services-button:focus {
+.sort-buttons-item:hover,
+.sort-buttons-item:focus {
     color: var(--color-white);
     background-color: var(--color-ocean);
     border: 1px solid transparent;
