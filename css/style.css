@@ -28,6 +28,8 @@ body {
     margin-right: auto;
 }
 
+
+
 .list {
     list-style: none;
     padding: 0;
@@ -166,7 +168,7 @@ body {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    width: 496px;
+    max-width: 496px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 48px;
@@ -240,6 +242,7 @@ body {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .offers-text {
@@ -252,6 +255,10 @@ body {
 /* /Offer */
 
 /* Work */
+
+.work {
+    padding-bottom: 120px;
+}
 
 .work-list {
     display: inline-flex;
@@ -273,6 +280,7 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 /* /Work */
@@ -280,7 +288,11 @@ body {
 /* Team */
 .team {
     background: var(--color-cloud);
+    padding: 120px 0
+}
 
+.team-container {
+    padding: 32px 0
 }
 
 .team-title {
@@ -292,10 +304,12 @@ body {
     letter-spacing: 0.72px;
     text-transform: capitalize;
     padding-bottom: 72px;
+    margin-bottom: 72px;
+
 }
 
 .team-list {
-    display: inline-flex;
+    display: flex;
     gap: 24px;
     margin-left: 56px;
 }
@@ -321,6 +335,7 @@ body {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.4px;
+    margin-bottom: 8px
 }
 
 .team-job-title {
