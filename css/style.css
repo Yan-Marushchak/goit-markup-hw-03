@@ -40,9 +40,8 @@ h3,
 h4,
 h5,
 h6,
-p,
-{
-margin: 0;
+p {
+    margin: 0;
 }
 
 .list {
@@ -296,8 +295,6 @@ margin: 0;
     background: var(--color-cloud);
     padding: 120px 0
 }
-
-.team-container {}
 
 .team-title {
     color: var(--color-navy-blue);
